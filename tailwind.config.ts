@@ -8,7 +8,11 @@ const config: Config = {
   ],
   plugins: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "custom-black": "#0C0C0C",
+      },
+    },
     height: {
       "10v": "10vh",
       "20v": "20vh",
