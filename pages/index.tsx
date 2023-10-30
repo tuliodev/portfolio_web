@@ -1,9 +1,5 @@
-export default function IndexPage() {
-  return (
-    <main>
-      <div>
-        <h1>Hello world</h1>
-      </div>
-    </main>
-  );
+import Home from "@/pages/Home";
+
+export default function HomePage() {
+  return <Home />;
 }
