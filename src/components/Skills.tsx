@@ -29,7 +29,7 @@ export default function Skills() {
   return (
     <div className="flex flex-col gap-3">
       <h1 className="text-gray-400">Frontend</h1>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 hover:opacity-50 cursor-pointer">
         <ReactOriginalIcon color="white" size="1.5em" />
         <TailwindcssPlainIcon color="white" size="1.5em" />
         <NextjsLineIcon color="white" size="1.5em" />
@@ -40,7 +40,7 @@ export default function Skills() {
         <TypescriptPlainIcon color="white" size="1.5em" />
       </div>
       <h1 className="text-gray-400">Backend</h1>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 hover:opacity-50 cursor-pointer">
         <NodejsPlainIcon color="white" size="1.5em" />
         <NestjsPlainIcon color="white" size="1.5em" />
         <ExpressOriginalIcon
@@ -59,14 +59,14 @@ export default function Skills() {
         <TypescriptPlainIcon color="white" size="1.5em" />
       </div>
       <h1 className="text-gray-400">DevOps</h1>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 hover:opacity-50 cursor-pointer">
         <AmazonwebservicesOriginalIcon color="white" size="1.5em" />
         <AzurePlainIcon color="white" size="1.5em" />
         <DockerPlainIcon color="white" size="1.5em" />
         <KubernetesPlainIcon color="white" size="1.5em" />
       </div>
       <h1 className="text-gray-400">Versionamento</h1>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 hover:opacity-50 cursor-pointer">
         <BitbucketOriginalIcon color="white" size="1.5em" />
         <GitPlainIcon color="white" size="1.5em" />
         <GithubOriginalIcon color="white" size="1.5em" />
