@@ -7,6 +7,7 @@ import {
   ExpressOriginalIcon,
   GithubOriginalIcon,
   GitlabPlainIcon,
+  GitPlainIcon,
   GraphqlPlainIcon,
   Html5PlainIcon,
   JavascriptPlainIcon,
@@ -19,6 +20,7 @@ import {
   NodejsPlainIcon,
   PostgresqlPlainIcon,
   ReactOriginalIcon,
+  RedisPlainIcon,
   TailwindcssPlainIcon,
   TypescriptPlainIcon,
 } from "react-devicons";
@@ -26,7 +28,7 @@ import {
 export default function Skills() {
   return (
     <div className="flex flex-col gap-3">
-      <h1 className="text-white">Frontend</h1>
+      <h1 className="text-gray-400">Frontend</h1>
       <div className="flex flex-wrap gap-2">
         <ReactOriginalIcon color="white" size="1.5em" />
         <TailwindcssPlainIcon color="white" size="1.5em" />
@@ -37,7 +39,7 @@ export default function Skills() {
         <JavascriptPlainIcon color="white" size="1.5em" />
         <TypescriptPlainIcon color="white" size="1.5em" />
       </div>
-      <h1 className="text-white">Backend</h1>
+      <h1 className="text-gray-400">Backend</h1>
       <div className="flex flex-wrap gap-2">
         <NodejsPlainIcon color="white" size="1.5em" />
         <NestjsPlainIcon color="white" size="1.5em" />
@@ -51,20 +53,22 @@ export default function Skills() {
         <MysqlPlainIcon color="white" size="1.5em" />
         <MongodbPlainIcon color="white" size="1.5em" />
         <JestPlainIcon color="white" size="1.5em" />
+        <RedisPlainIcon color="white" size="1.5em" />
         <KubernetesPlainIcon color="white" size="1.5em" />
         <JavascriptPlainIcon color="white" size="1.5em" />
         <TypescriptPlainIcon color="white" size="1.5em" />
       </div>
-      <h1 className="text-white">DevOps</h1>
+      <h1 className="text-gray-400">DevOps</h1>
       <div className="flex flex-wrap gap-2">
         <AmazonwebservicesOriginalIcon color="white" size="1.5em" />
         <AzurePlainIcon color="white" size="1.5em" />
         <DockerPlainIcon color="white" size="1.5em" />
         <KubernetesPlainIcon color="white" size="1.5em" />
       </div>
-      <h1 className="text-white">Versionamento</h1>
+      <h1 className="text-gray-400">Versionamento</h1>
       <div className="flex flex-wrap gap-2">
         <BitbucketOriginalIcon color="white" size="1.5em" />
+        <GitPlainIcon color="white" size="1.5em" />
         <GithubOriginalIcon color="white" size="1.5em" />
         <GitlabPlainIcon color="white" size="1.5em" />
       </div>
