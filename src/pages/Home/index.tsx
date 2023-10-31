@@ -3,6 +3,7 @@ import { useState } from "react";
 import { MagicMotion } from "react-magic-motion";
 
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -31,11 +32,7 @@ export default function Home() {
           </div>
         );
       case "Contato":
-        return (
-          <div>
-            <h1 className="text-white">Contato</h1>
-          </div>
-        );
+        return <Contact />;
       default:
         break;
     }
@@ -56,6 +53,7 @@ export default function Home() {
                   <p
                     className="text-white ml-1 sm:ml-3 hover:text-gray-400 cursor-pointer hover:delay-75 w-fit"
                     id={option}
+                    key={option}
                     onClick={handleOptionClick}
                   >
                     {option}
