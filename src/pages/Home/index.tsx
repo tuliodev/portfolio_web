@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <MagicMotion>
-      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 h-92v  cursor-none">
+      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 max-h-screen h-80v sm:h-92v  cursor-none ">
         <section className="col-span-12 mt-5 sm:mt-11 ml-5 sm:ml-6">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col items-start justify-start">
