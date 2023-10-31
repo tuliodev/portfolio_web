@@ -28,7 +28,7 @@ export default function Contact() {
       {data.map((data) => {
         return (
           <div className=" border border-opacity-25 border-gray-600 p-4 opcaity-1">
-            <div className="flex flex-wrap items-center gap-3 hover:opacity-25 cursor-pointer ">
+            <div className="flex flex-wrap items-center gap-3 hover:opacity-25  ">
               <a href={data.url} target="_blank" rel="noopener noreferrer">
                 {" "}
                 {data.component}

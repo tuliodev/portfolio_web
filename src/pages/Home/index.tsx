@@ -51,12 +51,12 @@ export default function Home() {
               {optionsList.map((option) => {
                 return (
                   <p
-                    className="text-white ml-1 sm:ml-3 hover:text-gray-400 cursor-pointer hover:delay-75 w-fit"
+                    className="text-white ml-1 sm:ml-3 hover:text-gray-400  hover:delay-75 w-fit"
                     id={option}
                     key={option}
                     onClick={handleOptionClick}
                   >
-                    {option}
+                    <a>{option}</a>
                   </p>
                 );
               })}
