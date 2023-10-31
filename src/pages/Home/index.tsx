@@ -6,9 +6,9 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 
 export default function Home() {
-  const optionsList = ["Home", "Skills", "Info", "Contact"];
+  const optionsList = ["Sobre", "Habilidades", "Experiência", "Contato"];
 
-  const [currentOption, setCurrentOption] = useState<string | null>("Home");
+  const [currentOption, setCurrentOption] = useState<string | null>("Sobre");
 
   const handleOptionClick = (event: React.MouseEvent<HTMLParagraphElement>) => {
     const target = event.currentTarget as HTMLParagraphElement;
@@ -20,20 +20,20 @@ export default function Home() {
 
   const renderOption = (param: String | null) => {
     switch (param) {
-      case "Home":
+      case "Sobre":
         return <About />;
-      case "Skills":
+      case "Habilidades":
         return <Skills />;
-      case "Info":
+      case "Experiência":
         return (
           <div>
-            <h1 className="text-white">Info</h1>
+            <h1>Experience</h1>
           </div>
         );
-      case "Contact":
+      case "Contato":
         return (
           <div>
-            <h1 className="text-white">Contact</h1>
+            <h1 className="text-white">Contato</h1>
           </div>
         );
       default:
