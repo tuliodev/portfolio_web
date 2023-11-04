@@ -4,6 +4,7 @@ import { MagicMotion } from "react-magic-motion";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -26,11 +27,7 @@ export default function Home() {
       case "Habilidades":
         return <Skills />;
       case "Experiência":
-        return (
-          <div>
-            <h1>Experience</h1>
-          </div>
-        );
+        return <Experience />;
       case "Contato":
         return <Contact />;
       default:
@@ -40,7 +37,7 @@ export default function Home() {
 
   return (
     <MagicMotion>
-      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 max-h-screen h-80v sm:h-92v bg-custom-black bg-opacity-80 ">
+      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 border-opacity-25 max-h-screen h-92v bg-custom-black bg-opacity-80 cursor-none">
         <section className="col-span-12 mt-5 sm:mt-11 ml-5 sm:ml-6">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col items-start justify-start">
