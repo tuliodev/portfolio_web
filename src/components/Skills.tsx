@@ -4,7 +4,6 @@ import {
   BitbucketOriginalIcon,
   Css3PlainIcon,
   DockerPlainIcon,
-  ExpressOriginalIcon,
   GithubOriginalIcon,
   GitlabPlainIcon,
   GitPlainIcon,
@@ -28,49 +27,44 @@ import {
 export default function Skills() {
   return (
     <div className="flex flex-col gap-3">
-      <h1 className="text-gray-400">Frontend</h1>
+      <h1 className="text-white">Frontend</h1>
       <div className="flex flex-wrap gap-2 hover:opacity-50 ">
-        <ReactOriginalIcon color="white" size="1.5em" />
-        <TailwindcssPlainIcon color="white" size="1.5em" />
-        <NextjsLineIcon color="white" size="1.5em" />
-        <JestPlainIcon color="white" size="1.5em" />
-        <Html5PlainIcon color="white" size="1.5em" />
-        <Css3PlainIcon color="white" size="1.5em" />
-        <JavascriptPlainIcon color="white" size="1.5em" />
-        <TypescriptPlainIcon color="white" size="1.5em" />
+        <ReactOriginalIcon color="gray" size="1.5em" />
+        <TailwindcssPlainIcon color="gray" size="1.5em" />
+        <NextjsLineIcon color="gray" size="1.5em" />
+        <JestPlainIcon color="gray" size="1.5em" />
+        <Html5PlainIcon color="gray" size="1.5em" />
+        <Css3PlainIcon color="gray" size="1.5em" />
+        <JavascriptPlainIcon color="gray" size="1.5em" />
+        <TypescriptPlainIcon color="gray" size="1.5em" />
       </div>
-      <h1 className="text-gray-400">Backend</h1>
+      <h1 className="text-white">Backend</h1>
       <div className="flex flex-wrap gap-2 hover:opacity-50 ">
-        <NodejsPlainIcon color="white" size="1.5em" />
-        <NestjsPlainIcon color="white" size="1.5em" />
-        <ExpressOriginalIcon
-          color="white"
-          size="1.5em"
-          className="bg-white p-1"
-        />
-        <GraphqlPlainIcon color="white" size="1.5em" />
-        <PostgresqlPlainIcon color="white" size="1.5em" />
-        <MysqlPlainIcon color="white" size="1.5em" />
-        <MongodbPlainIcon color="white" size="1.5em" />
-        <JestPlainIcon color="white" size="1.5em" />
-        <RedisPlainIcon color="white" size="1.5em" />
-        <KubernetesPlainIcon color="white" size="1.5em" />
-        <JavascriptPlainIcon color="white" size="1.5em" />
-        <TypescriptPlainIcon color="white" size="1.5em" />
+        <NodejsPlainIcon color="gray" size="1.5em" />
+        <NestjsPlainIcon color="gray" size="1.5em" />
+        <GraphqlPlainIcon color="gray" size="1.5em" />
+        <PostgresqlPlainIcon color="gray" size="1.5em" />
+        <MysqlPlainIcon color="gray" size="1.5em" />
+        <MongodbPlainIcon color="gray" size="1.5em" />
+        <JestPlainIcon color="gray" size="1.5em" />
+        <RedisPlainIcon color="gray" size="1.5em" />
+        <KubernetesPlainIcon color="gray" size="1.5em" />
+        <JavascriptPlainIcon color="gray" size="1.5em" />
+        <TypescriptPlainIcon color="gray" size="1.5em" />
       </div>
-      <h1 className="text-gray-400">DevOps</h1>
+      <h1 className="text-white">DevOps</h1>
       <div className="flex flex-wrap gap-2 hover:opacity-50 ">
-        <AmazonwebservicesOriginalIcon color="white" size="1.5em" />
-        <AzurePlainIcon color="white" size="1.5em" />
-        <DockerPlainIcon color="white" size="1.5em" />
-        <KubernetesPlainIcon color="white" size="1.5em" />
+        <AmazonwebservicesOriginalIcon color="gray" size="1.5em" />
+        <AzurePlainIcon color="gray" size="1.5em" />
+        <DockerPlainIcon color="gray" size="1.5em" />
+        <KubernetesPlainIcon color="gray" size="1.5em" />
       </div>
-      <h1 className="text-gray-400">Versionamento</h1>
+      <h1 className="text-white">Versionamento</h1>
       <div className="flex flex-wrap gap-2 hover:opacity-50 ">
-        <BitbucketOriginalIcon color="white" size="1.5em" />
-        <GitPlainIcon color="white" size="1.5em" />
-        <GithubOriginalIcon color="white" size="1.5em" />
-        <GitlabPlainIcon color="white" size="1.5em" />
+        <BitbucketOriginalIcon color="gray" size="1.5em" />
+        <GitPlainIcon color="gray" size="1.5em" />
+        <GithubOriginalIcon color="gray" size="1.5em" />
+        <GitlabPlainIcon color="gray" size="1.5em" />
       </div>
     </div>
   );
