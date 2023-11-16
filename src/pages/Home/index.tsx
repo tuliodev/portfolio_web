@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
 import { MagicMotion } from "react-magic-motion";
 
@@ -10,8 +11,19 @@ import ThemeButton from "@/components/ThemeButton";
 
 export default function Home() {
   const optionsList = ["Sobre", "Habilidades", "Experiência", "Contato"];
+  const [mounted, setMounted] = useState(false);
+  const { setTheme } = useTheme();
 
   const [currentOption, setCurrentOption] = useState<string | null>("Sobre");
+
+  useEffect(() => {
+    setMounted(true);
+    setTheme("dark");
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   const handleOptionClick = (event: React.MouseEvent<HTMLParagraphElement>) => {
     const target = event.currentTarget as HTMLParagraphElement;

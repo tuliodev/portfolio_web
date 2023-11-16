@@ -6,7 +6,11 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
+    <ThemeProvider
+      attribute="class"
+      themes={["light", "dark"]}
+      defaultTheme="dark"
+    >
       <Layout>
         <Component {...pageProps} />
       </Layout>

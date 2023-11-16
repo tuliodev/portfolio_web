@@ -4,6 +4,7 @@ import { useTheme } from "next-themes";
 export default function ThemeButton() {
   const { setTheme } = useTheme();
   const [currentTheme, setCurrentTheme] = useState("");
+  const [mounted, setMounted] = useState(false);
 
   const toggleTheme = () => {
     const newTheme = currentTheme === "light" ? "dark" : "light";
@@ -12,9 +13,13 @@ export default function ThemeButton() {
   };
 
   useEffect(() => {
-    setTheme("dark");
+    setMounted(true);
     setCurrentTheme("dark");
   }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <button
