@@ -38,11 +38,11 @@ export default function Home() {
 
   return (
     <MagicMotion>
-      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 border-opacity-25 max-h-screen h-92v dark:bg-custom-black bg-white  dark:bg-opacity-80 bg-opacity-50 cursor-none">
+      <div className="grid grid-cols-12 mt-6 sm:mt-10 m-auto w-11/12 border border-gray-400 border-opacity-25 max-h-screen h-92v bg-white dark:bg-custom-black bg-opacity-50 dark:bg-opacity-80 cursor-none">
         <section className="col-span-12 mt-5 sm:mt-11 ml-5 sm:ml-6">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col items-start justify-start">
-              <p className="text-xl sm:text-5xl dark:text-white text-custom-black">
+              <p className="text-xl sm:text-5xl text-custom-black dark:text-white">
                 Tulio Resende
               </p>
               <p className="ml-1 sm:ml-3 text-gray-400">Fullstack Developer</p>
