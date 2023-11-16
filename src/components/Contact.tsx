@@ -8,17 +8,17 @@ export default function Contact() {
   const data = [
     {
       url: "https://www.linkedin.com/in/tulio-resende-08ba441a7",
-      component: <LinkedinPlainIcon color="white" size="2em" />,
+      component: <LinkedinPlainIcon color="gray" size="2em" />,
       content: "Tulio Resende",
     },
     {
       url: "https://github.com/tuliodev",
-      component: <GithubOriginalIcon color="white" size="2em" />,
+      component: <GithubOriginalIcon color="gray" size="2em" />,
       content: "tuliodev",
     },
     {
       url: "mailto:resendetuliodev@gmail.com",
-      component: <GooglePlainIcon color="white" size="2em" />,
+      component: <GooglePlainIcon color="gray" size="2em" />,
       content: "resendetuliodev@gmail.com",
     },
   ];

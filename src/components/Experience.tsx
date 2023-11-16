@@ -69,12 +69,12 @@ export default function Experience() {
   ];
 
   return (
-    <div className="overflow-y-scroll h-50v no-scrollbar flex flex-col gap-4 w-3/4">
+    <div className="overflow-y-scroll h-40v no-scrollbar flex flex-col gap-4 w-3/4">
       {experienceData.map((experience) => {
         return (
           <div
             key={experience.companyName}
-            className="text-white flex flex-col gap-2 border-b border-zinc-900"
+            className="dark:text-white text-custom-black flex flex-col gap-2 border-b border-zinc-900"
           >
             <p className="text-2xl">{experience.companyName}</p>
             <p className="text-gray-400 text-xs">
