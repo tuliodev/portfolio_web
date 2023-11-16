@@ -12,17 +12,17 @@ export default function ParticlesBackground() {
     await loadFull(engine);
   }, []);
 
-  const { resolvedTheme } = useTheme();
+  const { theme } = useTheme();
 
   const configTheme = useRef<ISourceOptions>(darkParticlesConfig);
 
   useEffect(() => {
-    if (resolvedTheme == "dark") {
+    if (theme == "dark") {
       configTheme.current = lightParticlesConfig;
     } else {
       configTheme.current = darkParticlesConfig;
     }
-  }, [resolvedTheme]);
+  }, [theme]);
 
   const config = useMemo(() => configTheme.current, [configTheme.current]);
 
