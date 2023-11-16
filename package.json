@@ -17,7 +17,6 @@
     "react-devicons": "^2.14.0",
     "react-dom": "^18",
     "react-magic-motion": "^1.0.9",
-    "react-particles": "^2.12.2",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^2.12.0"
   },
