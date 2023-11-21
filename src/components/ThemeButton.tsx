@@ -23,7 +23,7 @@ export default function ThemeButton() {
 
   return (
     <button
-      className="dark:text-white text-custom-black ml-1 sm:ml-3"
+      className="dark:text-white text-custom-black ml-1 sm:ml-3 w-fit transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150"
       onClick={toggleTheme}
     >
       <svg
