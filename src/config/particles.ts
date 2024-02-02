@@ -1000,7 +1000,7 @@ export const lightParticlesConfig: ISourceOptions = {
         frequency: 0.005,
         opacity: 1,
         color: {
-          value: "#756f6f",
+          value: "#000",
         },
       },
       particles: {
@@ -1008,7 +1008,7 @@ export const lightParticlesConfig: ISourceOptions = {
         frequency: 0.05,
         opacity: 1,
         color: {
-          value: "#756f6f",
+          value: "#000",
         },
       },
     },
@@ -1077,7 +1077,7 @@ export const lightParticlesConfig: ISourceOptions = {
     links: {
       blink: false,
       color: {
-        value: "#ffffff",
+        value: "#000",
       },
       consent: false,
       distance: 150,

@@ -1,4 +1,5 @@
 import {
+  AmazonwebservicesOriginalIcon,
   DockerPlainIcon,
   GraphqlPlainIcon,
   JavascriptPlainIcon,
@@ -15,14 +16,16 @@ import {
   TypescriptPlainIcon,
 } from "react-devicons";
 
+import TranslateString from "@/layouts/components/TranslationString";
+
 export default function Experience() {
+  const translate = TranslateString();
   const experienceData = [
     {
       companyName: "Grupo Adriano Corbuccio",
       startDate: "set 2022",
       endDate: "ago 2023",
-      description:
-        "Dentro do grupo Adriano Corbuccio, tive o privilégio de participar de iniciativas transformadoras no banco BrasilCard. Minha função abrangeu não apenas impulsionar projetos internos, mas também revitalizar sistemas legados migrando-os para tecnologias de ponta.",
+      description: translate("AdrianoCourbuccioDescription"),
       skills: [
         <ReactOriginalIcon color="gray" size="1.2em" />,
         <NextjsLineIcon color="gray" size="1.2em" />,
@@ -43,8 +46,7 @@ export default function Experience() {
       companyName: "Wejam Digital",
       startDate: "mar 2021",
       endDate: "set 2022",
-      description:
-        "Durante meu período na agência WeJam, tive a oportunidade de participar de projetos backend que tiveram um impacto positivo em nossos clientes externos. Adotei uma abordagem focada em tecnologias de ponta, utilizando Node.js com TypeScript, e princípios de Desenvolvimento Orientado a Testes (TDD) e Design Orientado a Domínio (DDD).",
+      description: translate("WejamDescription"),
       skills: [
         <NodejsPlainIcon color="gray" size="1.2em" />,
         <DockerPlainIcon color="gray" size="1.2em" />,
@@ -53,14 +55,14 @@ export default function Experience() {
         <JavascriptPlainIcon color="gray" size="1.2em" />,
         <TypescriptPlainIcon color="gray" size="1.2em" />,
         <PhpPlainIcon color="gray" size="1.2em" />,
+        <AmazonwebservicesOriginalIcon color="gray" size="1.2em" />,
       ],
     },
     {
       companyName: "Phooto",
       startDate: "jun 2020",
       endDate: "set 2020",
-      description:
-        "Durante meu tempo na Phooto, tive o privilégio de contribuir para projetos internos da empresa. Utilizei React.js e JavaScript para criar soluções impactantes. O compromisso da Phooto com a inovação e a excelência proporcionou um ambiente ideal para aproveitar essas tecnologias e entregar resultados de alta qualidade.",
+      description: translate("PhootoDescription"),
       skills: [
         <ReactOriginalIcon color="gray" size="1.2em" />,
         <JavascriptPlainIcon color="gray" size="1.2em" />,

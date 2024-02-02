@@ -24,7 +24,10 @@ import {
   TypescriptPlainIcon,
 } from "react-devicons";
 
+import TranslateString from "@/layouts/components/TranslationString";
+
 export default function Skills() {
+  const translate = TranslateString();
   return (
     <div className="flex flex-col gap-3">
       <h1 className="dark:text-white text-custom-black">Frontend</h1>
@@ -59,7 +62,7 @@ export default function Skills() {
         <DockerPlainIcon color="gray" size="1.5em" />
         <KubernetesPlainIcon color="gray" size="1.5em" />
       </div>
-      <h1 className="dark:text-white text-custom-black">Versionamento</h1>
+      <h1 className="dark:text-white text-custom-black">{translate("VCS")}</h1>
       <div className="flex flex-wrap gap-2 hover:opacity-50 ">
         <BitbucketOriginalIcon color="gray" size="1.5em" />
         <GitPlainIcon color="gray" size="1.5em" />
